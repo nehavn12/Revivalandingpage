@@ -1,0 +1,1155 @@
+body {
+	margin: 0;
+	font-family: "Chivo", serif;
+	scroll-behavior: smooth;
+	/* Enables smooth scrolling */
+}
+
+/* Top-Bar Css Start*/
+.sticky-top
+{
+	padding:0px;
+}
+.logi
+{
+	padding:0px;
+}
+.top-bar {
+	padding: 12px 0px;
+	background-color: #000;
+}
+
+ul.contact-details {
+	margin-bottom: 0px;
+}
+
+ul.contact-details li {
+	padding-right: 20px;
+}
+
+ul.contact-details {
+	padding-left: 0px;
+	list-style: none;
+	display: inline-flex;
+}
+
+ul.contact-details li a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "Chivo", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	border-right: 1px solid #fff;
+	padding-right: 13px;
+}
+
+ul.contact-details li i {
+	margin-right: 5px;
+	font-size: 15px;
+	color: #fff;
+}
+
+a.lastmemail {
+	border-right: 0px !important;
+}
+
+ul.header-social li {
+	margin: 0px 10px;
+	display: inline-block;
+}
+
+ul.header-social {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+ul.header-social li a i {
+	color: #fff;
+	font-size: 15px;
+}
+
+/* Top-Bar Css Ends*/
+
+/*header Css */
+a.navbar-brand img {
+	width: 300px;
+}
+
+.heade-navigation {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #4396a4;
+	position: fixed;
+    width: 100%;
+	z-index:+1;
+}
+
+.heade-navigation .container {
+	padding: 0px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+	color: #fff;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+	color: #000;
+}
+
+ul.navbar-nav.ms-auto li {
+	padding: 10px;
+}
+
+a.nav-link {
+	color: #fff;
+	font-size: 17px;
+	padding: 0px 15px;
+	cursor: pointer;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+	line-height: 24px;
+	font-family: "Chivo", serif;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 66px;
+	background-color: #fff;
+	width: 220px;
+	z-index: 1;
+	opacity: 0;
+	-webkit-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, .05);
+	pointer-events: none;
+	padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	opacity: 1;
+}
+
+.dropdown-content a {
+	padding: 5px 30px;
+	color: #566593;
+	display: block;
+	font-size: 16px;
+	padding: 5px 0;
+	line-height: 20px;
+	text-transform: capitalize;
+	position: relative;
+	transition: all .15s linear;
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	-o-transition: all .15s linear;
+	font-weight: 400;
+	font-family: "Chivo", serif;
+	text-decoration: none;
+}
+
+.dropdown a:after {
+	content: "+";
+	margin-left: 5px;
+	margin-top: -5px;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+
+.noaft li a:after {
+	display: none;
+}
+
+ul.noaft {
+	list-style: none;
+	padding: 0;
+}
+
+.noaft li {
+	padding: 5px !important;
+}
+/*header Css Ends*/
+
+/*banner CSS START*/
+div#banner
+	{
+		padding:250px 0px;
+	}
+.bannertext h5 {
+	font-family: "Chivo", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.bannertext h2 {
+	font-family: "Chivo", serif;
+	font-size: 75px;
+	font-weight: 700;
+	line-height: 75px;
+	color: #fff;
+}
+
+.bannertext p {
+	font-family: "Chivo", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	color: #fff;
+}
+
+.bannertext ul {
+	width: 50%;
+	padding-left: 0px;
+	list-style: none;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.bannertext ul li {
+	padding: 12px 0px;
+	color: #fff;
+}
+
+.bannertext ul li img {
+	width: 50px;
+	margin-right: 10px;
+}
+
+.bannertext ul li {
+	padding: 12px 0px;
+	font-family: "Chivo", serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.button1 a {
+	width: 50%;
+	background-color: #f46700;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 25px;
+}
+
+.btn1 {
+	background: #ffffff;
+	color: #4396a4;
+	text-decoration: none;
+	padding: 12px 29px;
+}
+
+.btn2 {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 29px;
+}
+
+/*banner CSS ENDS*/
+
+/*Facts css start*/
+.facts {
+	margin-top: -80px;
+	padding-bottom: 80px;
+}
+
+.stats-section {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 0;
+}
+
+.stat-box {
+	background: #ffffff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: center;
+	width: 350px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 20px;
+}
+
+.stat-box img {
+	width: 60px;
+	margin-bottom: 15px;
+}
+
+.stat-box h3 {
+	margin: 10px 0;
+	font-family: "Chivo", serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #4396a4;
+}
+
+.stat-box p {
+	color: #000;
+	font-family: "Chivo", serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+/*Facts Css Ends*/
+
+/*About us CSS Start*/
+div#about {
+    padding: 150px 0px;
+    background-color: #ecf4fb;
+	padding-bottom: 60px;
+}
+.abtiimg
+{
+	border-radius:50px;
+}
+.abouts ul {
+	width: 50%;
+	padding-left: 0px;
+	list-style: none;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.abouts ul li {
+	padding: 12px 0px;
+	font-family: "Chivo", serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.abouts h5 {
+    font-family: "Chivo", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #f46700;
+    text-transform: uppercase;
+    color: #4396a4;
+    background-color: #fff;
+    display: inline-flex;
+    padding: 9px 15px 7px 15px;
+    border-radius: 100px;
+	margin-top: 20px;
+}
+
+.abouts h2 {
+	font-family: "Chivo", serif;
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 58px;
+}
+
+.abouts a {
+	background: #4396a4;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 29px;
+}
+
+.abouts p {
+	font-family: "Chivo", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: justify;
+}
+.box-image {
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    color: #fff;
+    background-color: #4396a4;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.box-image img{
+    width: 55px;
+}
+.box-content h3 {
+    font-family: "Chivo", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.review {
+    background-color: #4396a4;
+    border-radius: 30px;
+    padding: 40px 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    padding-top: 34px;
+    width: 175px;
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+}
+.review h2 {
+    font-size: 60px;
+    line-height: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+.review span {
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+ul.star {
+    display: flex;
+    background-color: white;
+    padding: 4px 14px;
+    border-radius: 34px;
+    color: #ffab19;
+    margin-bottom: 12px;
+}
+ul.star li {
+    padding-right: 5px;
+    list-style: none;
+}
+.review img {
+    width: 100px;
+}
+.abtiimage
+{
+	position:relative;
+}
+/*About us css Ends*/
+
+/*Why Choose Us Css Start*/
+.whyus
+{
+   padding:150px 0px;
+padding-bottom: 60px;   
+}
+.top-choose {
+    top: 40px;
+    max-width: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    position: relative;
+    width: 1130px;
+    height: 1px;
+    border: 1px dashed rgba(1, 9, 21, 0.14);
+}
+.why-choose-us__icon {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: #4396a4;
+    -webkit-box-shadow: 0px 6px 6px rgba(1, 9, 21, 0.14);
+    box-shadow: 0px 6px 6px rgba(1, 9, 21, 0.14);
+    border-radius: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.why-choose-us__icon img {
+    width: 50px;
+}
+.bottom-arrow {
+    margin-top: -30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.bottom-arrow img {
+    width: auto;
+}
+.why-choose-content {
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 30px;
+    -webkit-box-shadow: 0px 20px 50px rgba(13, 18, 30, 0.1);
+    box-shadow: 0px 20px 50px rgba(13);
+	text-align:center;
+	-webkit-animation: move1 10s infinite;
+    animation: move1 10s infinite;
+}
+@keyframes move1 {
+    0% {
+        -webkit-transform: rotate(-1deg) translate(-1px,-1px);
+        transform: rotate(-1deg) translate(-1px,-1px)
+    }
+
+    50% {
+        -webkit-transform: rotate(1deg) translate(1px,1px);
+        transform: rotate(1deg) translate(1px,1px)
+    }
+
+    100% {
+        -webkit-transform: rotate(-1deg) translate(-1px,-1px);
+        transform: rotate(-1deg) translate(-1px,-1px)
+    }
+}
+span.small-choose {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    padding: 3px 12px;
+    background: #000;
+    border-radius: 4px;
+	text-align:center;
+}
+.why-choose-content p {
+   text-align: center;
+    font-family: "Chivo", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #000;
+}
+.fpara
+{
+	text-align: justify;
+    font-family: "Chivo", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #000;
+}
+.choosi
+{
+	text-align:center;
+	margin-bottom:50px;
+}
+.choosi h5 {
+    font-family: "Chivo", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4396a4;
+    display: inline-flex;
+    padding: 9px 15px 7px 15px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+.choosi h2 {
+    font-family: "Chivo", serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+}
+.btnwhite
+{
+	background: #4396a4;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 29px;
+}
+/*Why Choose Us CSS Ends*/
+
+/*services section start */
+.ourservices {
+	background-color: #4396a4;
+	padding: 60px 0px;
+}
+
+.servi h5 {
+	font-family: "Chivo", serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.servi h2 {
+	font-family: "Chivo", serif;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #fff;
+}
+
+ul.serviceslist {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+ul.serviceslist li {
+	padding: 12px 0px;
+	font-family: "Chivo", serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 10px 15px;
+	width: 22%;
+	display: inline-block;
+	background: #4396a4;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.tab {
+	flex: 1;
+	height: 40px;
+	border-radius: 0;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	color: #fff;
+	font-family: "Chivo", serif;
+}
+
+.tabs {
+	background-color: #181f25;
+	display: flex;
+	border-radius: 5px 5px 0px 0px;
+
+}
+
+.tab-content {
+	display: none;
+	padding: 10px;
+}
+
+.active {
+	display: block;
+	background-color: #4396a4;
+	color: #fff;
+	transition: all 0.4s ease-in-out;
+
+}
+
+.tab-content {
+	display: none;
+	padding: 10px;
+	opacity: 0;
+}
+
+.activeContent {
+	padding-top: 20px;
+	display: block;
+	background-color: #fffefe;
+	color: white;
+	opacity: 1;
+	border-radius: 0px 0px 5px 5px;
+
+}
+
+/*Services section ends*/
+
+/*Gallery Section Starts*/
+.ourgallery {
+	padding: 60px 0px;
+}
+
+.ourgallery h5 {
+	font-family: "Chivo", serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #4396a4;
+	text-transform: uppercase;
+}
+
+.ourgallery h2 {
+	font-family: "Chivo", serif;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #000;
+}
+
+.gallimg img {
+	width: 300px;
+	height: 210px;
+}
+
+/*Gallry Section Ends*/
+
+/*Process area start*/
+.processarea {
+	padding: 150px 0px;
+	background-color: #4396a4;
+	padding-bottom: 60px;
+}
+
+.stat-box h6 {
+	background: #4396a4;
+	color: #fff;
+	width: 25%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 3px 10px;
+	border-radius: 50px;
+	font-family: "Chivo", serif;
+	font-size: 14px;
+}
+
+/*Process area Ends*/
+
+/*Team Section CSS Starts*/
+#service {
+	padding: 150px 0px;
+	padding-bottom: 60px;
+}
+.teamarea {
+	padding: 150px 0px;
+	padding-bottom: 60px;
+}
+
+.doctor-card {
+	text-align: center;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+}
+
+.doctor-card:hover {
+	transform: translateY(-5px);
+}
+
+.doctor-card img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 15px;
+	object-fit: cover;
+}
+
+.doctor-icons a {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #4396a4;
+	border-radius: 50%;
+	line-height: 40px;
+}
+
+.doctor-card h3 {
+	font-size: 18px;
+	margin: 10px 0;
+	color: #4396a4;
+}
+
+.doctor-card p {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.doctor-icons {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.doctor-icons a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #4396a4;
+	transition: color 0.3s;
+}
+
+.doctor-icons a:hover {
+	color: #000;
+}
+
+.teami h2 {
+	font-family: "Chivo", serif;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #000;
+}
+
+.teami h5 {
+	font-family: "Chivo", serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #4396a4;
+	text-transform: uppercase;
+}
+
+/*team section Ends*/
+
+/*contact us section css*/
+.contactarea {
+	padding: 150px 0px;
+	background-color: #4396a4;
+	padding-bottom: 60px;
+}
+
+.appointment {
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 15px;
+}
+
+form .form-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-bottom: 15px;
+}
+
+form input,
+form select,
+form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="date"] {
+	flex: 1;
+}
+.grade
+{
+	display: flex;
+    gap: 20px;	
+}
+.grade label
+{
+	display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.grade img 
+{
+    margin-right: 5px;
+}
+.grade input[type="radio"] 
+{
+    margin-right: 2px;
+}
+textarea {
+	resize: none;
+}
+
+.submit-button {
+	background-color: #4396a4;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+	background-color: #e0a200;
+}
+
+.form-group input {
+	font-family: "Chivo", serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.info-item {
+	background: #f6f6f7;
+	padding: 25px;
+	margin-bottom: 25px;
+	border-radius: 20px;
+}
+
+.info-item i {
+	font-size: 25px;
+	line-height: 0;
+	color: #4396a4;
+}
+
+.info-item h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 20px 0 10px 0;
+}
+
+.info-item p {
+	padding: 0;
+	line-height: 24px;
+	font-size: 14px;
+	margin-bottom: 0;
+	font-family: "Chivo", serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.info-item p a {
+	color: #000;
+	font-family: "Chivo", serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+ul.footer-social {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+ul.footer-social li {
+	margin: 0px 10px;
+	display: inline-block;
+}
+
+ul.footer-social li a i {
+	color: #4396a4;
+	font-size: 16px;
+}
+
+/*Contact Us Section Ends*/
+.footer {
+	background-color: #12505a;
+	padding: 60px 0px 0px 0px;
+}
+
+ul.footer-links {
+	width: 49%;
+	float: left;
+	padding-left: 0px;
+	list-style: none;
+}
+
+ul.footer-links li {
+	color: #fff;
+	margin: 10px 0px;
+}
+
+ul.footer-links li a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "Chivo", serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.footer h5 {
+	font-family: "Chivo", serif;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #fff;
+}
+
+ul.time-links {
+	padding-left: 0px;
+	list-style: none;
+}
+
+ul.time-links li {
+	color: #fff;
+	margin: 10px 0px;
+	font-family: "Chivo", serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	0;
+}
+
+ul.time-links li a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "Chivo", serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.footer p {
+	font-family: "Chivo", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: justify;
+	color: #fff;
+}
+
+hr {
+	border-top: 1px dashed #fff;
+	opacity: 1;
+}
+
+/*media Query*/
+@media only screen and (max-width: 767px) {
+	.top-bar {
+		display: none;
+	}
+
+	.stats-section {
+		display: block;
+	}
+
+	.stat-box {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+
+	.btn1 {
+		display: flex;
+		margin-bottom: 10px;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.btn2 {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.bannertext ul {
+		width: 100%;
+		float: none;
+		margin-bottom: 0px;
+	}
+
+	.servi h2 {
+		font-size: 28px;
+		line-height: 35px;
+	}
+
+	.tab {
+		font-size: 12px;
+	}
+
+	ul.serviceslist li {
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 20px;
+		margin: 10px 0px;
+		width: 49%;
+		text-transform: capitalize;
+		letter-spacing: 0px;
+	}
+
+	.abouts h2 {
+		font-size: 35px;
+		line-height: 45px;
+	}
+
+	.ourgallery {
+		text-align: center;
+	}
+
+	.ourgallery img {
+		margin-bottom: 10px;
+	}
+
+	.doctor-card {
+		margin-bottom: 15px;
+	}
+
+	.appointment {
+		margin-bottom: 15px;
+	}
+
+	.bannertext h2 {
+		font-size: 62px;
+		line-height: 70px;
+	}
+
+	a.navbar-brand img {
+		width: 250px;
+	}
+	div#banner
+	{
+		padding:170px 0px;
+	}
+	div#about {
+    padding: 150px 0px;
+	padding-bottom:50px;
+}
+.ourservices {
+    padding: 150px 0px;
+}
+.ourgallery {
+    padding: 150px 0px;
+}
+.processarea {
+    padding: 150px 0px;
+}
+.teamarea {
+    padding: 150px 0px;
+	padding-bottom:0px;
+}
+.contactarea {
+    padding: 150px 0px;
+}
+.responsbtn
+{
+	margin:0 auto;
+	margin-bottom:15px;
+}
+.review
+{
+	display:none;
+}
+.btnwhite
+{
+	display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.reverse
+{
+	flex-direction:column-reverse;
+}
+.why-choose-content
+{
+	margin-bottom:20px;
+}
+.reslab
+{
+	width:100%;
+	justify-content:Center;
+}
+.grade
+{
+	justify-content:center;
+}
+
+}
